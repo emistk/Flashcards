@@ -3,16 +3,44 @@
     padding: 0;
 }
 
-.cabecalho{
+.cabecalho {
     padding: 15px 25px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 134, 85);
 }
 
-.cartao{
+.cartao {
     width: 260px;
     height: 200px;
 }
 
 .cartao-imagem {
     width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(252, 200, 155);
+}
+main{
+    flex: 1;
+}
+
+.cabecalho-link{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(246, 246, 249);
+}
+
+footer{
+    background-color: rgb(220, 134, 85);
+    padding: 15px 25px;
+    color: white;
 }
